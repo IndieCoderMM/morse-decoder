@@ -2,192 +2,101 @@
 
 ## 📗 Table of Contents
 
-- [💻 Awesome Project](#-awesome-project)
+- [🔑 Morse Decoder](#-morse-decoder)
   - [🛠 Built With](#-built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#-live-demo)
   - [💻 Getting Started](#-getting-started)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
-    - [Install](#install)
+    - [Installation](#installation)
     - [Usage](#usage)
-    - [Run tests](#run-tests)
-    - [Deployment](#deployment)
   - [👥 Authors](#-authors)
   - [🔭 Future Features](#-future-features)
   - [🤝 Contributing](#-contributing)
   - [💖 Show your support](#-show-your-support)
   - [🙏 Acknowledgments](#-acknowledgments)
-  - [📝 License](#-license)
+  - [📜 License](#-license)
 
 
-# 💻 Awesome Project
+# 🔑 Morse Decoder
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**Morse Decoder** is a program to convert [Morse Code](https://en.wikipedia.org/wiki/Morse_code#:~:text=Morse%20code%20is%20a%20method,the%20inventors%20of%20the%20telegraph.) messages into readable text.
 
 ## 🛠 Built With
 
 ### Tech Stack
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
+- Ruby
 
 ### Key Features
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- Take Morse Codes as input 
+- Output the decoded message
+- Decode Morse Code quickly
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need [Ruby](https://www.ruby-lang.org/en/) installed on your machine.
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  cd my-project
+  git clone git@github.com:IndieCoderMM/morse-decoder.git .
 ```
---->
 
-### Install
+
+### Installation
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
-  cd my-project
   gem install
 ```
---->
+
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
+To run the program, execute the following command:
 
 ```sh
-  rails server
+  ruby decoder.rb
 ```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 👥 Authors
 
-> Mention all of the collaborators of this project.
+👨‍🚀 **Hein Thant**
 
-👤 **Author1**
+- GitHub: [@githubhandle](https://github.com/indiecodermm)
+- Gmail: hthant00chk@gmail.com
+- LinkedIn: [LinkedIn](https://linkedin.com/in/hthantoo)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👨‍🚀 **Abel Seifu**
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@abe1able](https://github.com/abe1able)
+- LinkedIn: [Abel-Seifu](https://linkedin.com/in/abel-seifu)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🔭 Future Features 
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Add morse codes for numbers**
+- [ ] **Get input from cmd**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -215,7 +124,7 @@ I would like to thank all code reviewers for making this project better.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 📝 License
+## 📜 License
 
 This project is [MIT](./LICENSE) licensed.
 
