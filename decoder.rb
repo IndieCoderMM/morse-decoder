@@ -19,7 +19,13 @@ def decode_word(word)
 end
 
 def decode(message)
-  # TODO: Method to decode entire message
+  sentence = ''
+  words_array = message.split(/   /)
+  words_array.each do |word|
+    sentence += decode_word(word)
+    sentence += ' '
+  end
+  sentence
 end
 
-# puts decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+puts decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
